@@ -7,8 +7,6 @@ import 'package:get/get.dart';
 import './common/routes/pages.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'common/store/config.dart';
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 

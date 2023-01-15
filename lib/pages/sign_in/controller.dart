@@ -76,8 +76,8 @@ class SignInController extends GetxController {
       }
     } catch (e) {
       toastInfo(msg: "login error");
-      printError();
-      print(e);
+      // printError();
+      print('EEEEEEEEEE $e');
     }
   }
 

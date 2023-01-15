@@ -1,0 +1,6 @@
+{
+  "yaml.schemas": {
+    "kubernetes": "*.yaml",
+    "https://json.schemastore.org/yamllint.json": "file:///Users/hwn/Documents/Programming/flutter/flutter_chat/pubspec.yaml"
+  }
+}

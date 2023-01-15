@@ -28,7 +28,12 @@ class ContactList extends GetView<ContactController> {
               child: SizedBox(
                 width: 54.w,
                 height: 54.w,
-                child: CachedNetworkImage(imageUrl: '${item.photourl}'),
+                child: CachedNetworkImage(
+                  imageUrl: '${item.photourl}',
+                  errorWidget: ((context, url, error) => const Image(
+                        image: AssetImage('assets/images/feature-1.png'),
+                      )),
+                ),
               ),
             ),
             Container(
